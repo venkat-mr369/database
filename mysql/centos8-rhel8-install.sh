@@ -1,4 +1,4 @@
-#!/bin/basg
+#!/bin/bash
 sudo dnf install mysql-server -y
 sudo systemctl start mysqld.service
 sleep 1
